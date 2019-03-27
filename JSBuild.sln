@@ -1,13 +1,18 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSBuild", "JSBuild\JSBuild.csproj", "{2DA34A55-E910-4334-9179-F7F391A9E6B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSBuildConsole", "JSBuildConsole\JSBuildConsole.csproj", "{FAB656F2-A971-4144-B861-C920DDDC6D3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSBuildLib", "JSBuildLib\JSBuildLib.csproj", "{554AAF35-D3C0-420B-ACA8-7FA39EB11A05}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "JSBuildSetup", "JSBuildSetup\JSBuildSetup.vdproj", "{8A23AEB4-55F0-4CC9-9A1F-D955D7B8D044}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8159716-FB12-4508-A891-55455AA5B9AC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,12 +32,11 @@ Global
 		{554AAF35-D3C0-420B-ACA8-7FA39EB11A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554AAF35-D3C0-420B-ACA8-7FA39EB11A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{554AAF35-D3C0-420B-ACA8-7FA39EB11A05}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A23AEB4-55F0-4CC9-9A1F-D955D7B8D044}.Debug|Any CPU.ActiveCfg = Debug
-		{8A23AEB4-55F0-4CC9-9A1F-D955D7B8D044}.Debug|Any CPU.Build.0 = Debug
-		{8A23AEB4-55F0-4CC9-9A1F-D955D7B8D044}.Release|Any CPU.ActiveCfg = Release
-		{8A23AEB4-55F0-4CC9-9A1F-D955D7B8D044}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B3AE7B-5825-409D-A4C9-53BB1D227AA8}
 	EndGlobalSection
 EndGlobal
